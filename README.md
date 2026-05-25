@@ -1,6 +1,6 @@
 # AWS-Secure-Docker-Deployment-Private-EC2-ALB-
 
-This project demonstrates a secure AWS architecture where a Dockerized web application runs on a private EC2 instance, exposed via an Application Load Balancer (ALB).
+This project demonstrates a secure AWS architecture where a Dockerized web application is deployed on a private EC2 instance and exposed to the internet via an Application Load Balancer.
 
 
 ## Key Skills Demonstrated
@@ -23,6 +23,7 @@ This project demonstrates a secure AWS architecture where a Dockerized web appli
 - Deployed Bastion Host (public)
 - Deployed EC2 in private subnet (no public IP)
 - Installed Docker and built Nginx container
+- Created custom Dockerfile and deployed Nginx-based application
 - Configured NAT Gateway for internet access
 - Created ALB and Target Group
 - Connected ALB to private EC2
